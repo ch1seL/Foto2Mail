@@ -35,5 +35,14 @@
     @Scripts.Render("~/bundles/otherScripts")
     @RenderSection("scripts", required: false)
 
+
+<script>
+    $(document).bind('mousewheel DOMMouseScroll MozMousePixelScroll', function (event) {
+        event.preventDefault();
+
+        alert(event.);
+    });
+</script>
+
 </body>
 </html>
